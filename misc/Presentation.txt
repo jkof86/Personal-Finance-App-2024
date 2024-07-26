@@ -1,0 +1,11 @@
+Presentation (15 mins):
+	Intro
+	Project Description
+	Tech Stack
+	User Stories
+	Demo
+	Tests (if any)
+	Dev Ops
+	Challenges (solutions / lessons learned)
+	Handoff (what to work on next)
+	Questions

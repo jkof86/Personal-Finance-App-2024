@@ -1,0 +1,45 @@
+USER STORIES
+
+User Account Management:
+- As a user, I want to register for an account so that I can access the application.
+- As a user, I want to log in to my account so that I can access my personal information.
+- As a user, I want to log out of my account to ensure my data is secure. 
+- As a user, I want to reset my password in case I forget it.
+- As an admin, I want to manage (create, update, delete) user accounts to maintain the user base.
+- As an admin, I want to manage access levels to ensure data security and proper functionality usage.
+
+Expense Management:
+- As a user, I want to create and categorize different types of expenses (tangible items, services).
+- As a user, I want to view a list of my expenses to track my spending.
+- As a user, I want to edit or delete an expense in case of errors.
+- As a user, I want to filter expenses by category, date, or amount for better tracking.
+- As a user, I want to define recurring payments to better budget for future expenses. (Budgeting?)
+
+Payment Methods:
+- As a user, I want to add, edit, or delete various payment methods (credit, debit, loan) to manage how I pay for expenses.
+- As a user, I want to view all my payment accounts to understand the current status of those payment accounts.
+
+Expense Tracking (Stretch Goals --> Service Layer)
+- As a user, I want to track my expenses over time to see my spending patterns.
+- As a user, I want to categorize my expenses to understand where my money goes.
+- As a user, I want to generate reports on my expenses for analysis.
+
+
+STRETCH GOALS
+
+Budgeting:
+- As a user, I want to set a budget to help plan and control my spending.
+- As a user, I want to receive notifications when I am close to or exceed my budget.
+- As a user, I want to view my budget vs. actual spending to see how well I am adhering to my budget.
+
+3rd Party API Integration:
+- As a user, I want to integrate with 3rd party APIs (bank accounts, credit card accounts) to streamline expense tracking.
+- As a user, I want to import my transaction history from other financial services for comprehensive tracking.
+
+AI Recommendations:
+- As a user, I want to receive AI-based recommendations for saving money or optimizing my budget.
+- As a user, I want to receive personalized suggestions for expense reduction based on my spending habits.
+
+Visual Representation
+- As a user, I want to see charts and graphs of my spending to visualize my financial health.
+- As a user, I want to customize the visual representation to focus on specific data points.

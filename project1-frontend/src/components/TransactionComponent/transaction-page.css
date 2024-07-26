@@ -1,0 +1,38 @@
+/* .transaction-list { */
+    /* Style the container element */
+    /* padding: 20px; */
+  /* } */
+  
+  /* .transaction-list__items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    flex-wrap: wrap; 
+  } */
+  
+  /* .transaction__item {
+    margin: 10px;
+    width: calc(33% - 20px);
+  } */
+  
+  /* .transaction-card {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+  } */
+  
+  /* .transaction-card__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  } */
+  
+  /* .transaction-card__date {
+    font-weight: bold;
+  } */
+  

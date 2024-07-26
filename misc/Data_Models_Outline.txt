@@ -1,0 +1,42 @@
+DATA MODELS OUTLINE
+
+Users:
+- user_id (PK)
+- email
+- password
+
+UserAccount:
+- id (PK)
+- user_id (FK -> Users.user_id) (1:1)
+- financial_account_id (FK -> FinancialAccounts.financial_account_id) (1:many)
+
+FinancialAccounts:
+- financial_account_id (PK)
+- user_id (FK -> Users.user_id) (1:many)
+- type (ENUM: 'Bank', 'CreditCard', 'Loan')
+- name
+- balance
+- credit_limit (NULLABLE, only for CreditCard)
+- APR (NULLABLE, only for CreditCard)
+- principal (NULLABLE, only for Loan)
+- start_date (NULLABLE, only for Loan)
+- end_date (NULLABLE, only for Loan)
+- min_monthly_payment (NULLABLE, for Loan and CreditCard)
+
+Transactions:
+- transaction_id (PK)
+- financial_account_id (FK -> FinancialAccounts.financial_account_id) (1:1)
+- date
+- amount
+- description
+- recurring (Boolean)
+- recurring_frequency (NULLABLE)
+- category (ENUM: 'Income', 'Expense', 'Transfer')
+- related_transaction_id (FK -> Transactions.transaction_id) (for transfers)
+
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+Presentation (15 mins):
+	Intro
+	Project Description
+	Tech Stack
+	User Stories
+	Demo
+	Tests (if any)
+	Dev Ops
+	Challenges (solutions / lessons learned)
+		navbar state wasn't
+		transactions not updating account balance
+		spring default schema
+		lost team members
+		git merging issues / version control
+		refactored DB tables
+		
+	Handoff (what to work on next)
+		organize design DB /Backend Models early on
+		Establish Version Control standards early
+	Questions

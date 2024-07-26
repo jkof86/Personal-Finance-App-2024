@@ -1,0 +1,34 @@
+Project 1 Ideas: (Digital Library, Social Media App, Recipe App, Paraolympics, ECommerce, Real-Estate / Stock Tracker, Banking, Personal Finance)
+
+Personal Finance / Business Expense App
+Presentation Friday, July 19
+
+Java/Spring
+REACT/HTML/CSS(Bootstrap)/TS/JS
+
+Data Models / DB Tables:
+-Accounts (Personal, Business)
+-Users (Admin, Employee, Guest, Self)
+-Payment Method / Payment Account (Credit, Debit, Loan etc.)
+-Expenses / Services (Tangible object, Items, Services)
+
+-----------------------------
+
+User stories:
+-User Account Registration / Login / Logout
+-Account Types (Business, Personal) 
+-Create user and add different types of expenses
+-View User Account Details
+-Set a budget
+-Track purchase types
+-Track Expenses
+-Track inventory
+-Different Account Tiers with levels of access and functionality
+
+----------------------------
+
+Stretch Goals:
+-3rd party API integration
+-Offer recommendations / suggestions (AI)
+-Visual representation / feedback (charts, graphs)
+-Notification for limits
